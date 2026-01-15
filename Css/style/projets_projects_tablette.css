@@ -1,0 +1,109 @@
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+    
+      .home,
+  .projets,
+  .about {
+    display: inline;
+  }
+  body {
+    grid-template-rows: 10vh 50vh 77vh 30vh;
+    height: 160vh;
+    grid-template-columns: 20% 40% 10% 20% 10%;
+  }
+  .noir {
+    grid-column: 1 / span 5;
+  }
+  .blanc {
+    grid-column: 1 / span 5;
+  }
+  .gris {
+    grid-column: 1 / span 5;
+  }
+  .col2 {
+    grid-column: 3;
+  }
+  .col3,
+  .col4 {
+    display: block;
+    grid-row: 2 / span 2;
+  }
+  .col3 {
+    grid-column: 4;
+  }
+  .col4 {
+    grid-column: 5;
+  }
+  .yellowbar {
+    grid-column: 1 / span 5;
+    width: 10%;
+  }
+  .mainp {
+    grid-template-rows: 10vh 7vh 7vh 7vh 54vh 15vh 30vh;
+    height: 120vh;
+  }
+  .titreprojet {
+    grid-column: 1 / span 5;
+  }
+  .titreprojet > h2 {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+  }
+
+  .slidsp > img {
+    width: 40%;
+    aspect-ratio: 1/1;
+  }
+  .arrowareap {
+    grid-template-rows: 25% 50% 25%;
+  }
+  .arrowlp {
+    grid-column: 3;
+  }
+  .arrowrp {
+    grid-column: 4;
+  }
+
+  .txtareap {
+    grid-column: 2 / span 4;
+    width: 100%;
+    margin-left: 0;
+  }
+  .txtareap > .titrep > h3 {
+    font-size: 40px;
+  }
+  .txtareap > .p > p {
+    font-size: 20px;
+  }
+  .txtareap > .p {
+    width: 90%;
+  }
+
+  footer {
+    grid-column: 1 / span 5;
+  }
+  .container1 {
+    flex-direction: row;
+  }
+  .infos {
+    border: 1px solid var(--primary-color);
+    border-bottom: none;
+    border-top: none;
+  }
+  .btnvoirplusp,
+  .btnvoirplusp {
+    display: none;
+  }
+  /* Header */
+  header {
+    grid-template-columns: 20% 40% 10% 20% 10%;
+  }
+  span.nav-btn {
+    display: none;
+  }
+  #navbar {
+    display: none;
+  }
+  header > nav.navbar {
+    display: none;
+  }
+}

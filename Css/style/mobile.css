@@ -1,0 +1,30 @@
+@import url("./mobile_header.css");
+@import url("./mobile_main.css");
+@import url("./mobile_section.css");
+@import url("./mobile_projects.css");
+@import url("./mobile_footer.css");
+
+@media screen and (max-width: 767px) {
+  /* CONFIGS */
+  body {
+    grid-template-rows: 10vh 30vh 66vh 40vh 70vh;
+    height: 216vh;
+    width: 100%;
+  }
+  :root {
+    --font-size: 18px;
+    --font-size2: 22px;
+    --title-size: 22px;
+    --medium-title-size: 2rem;
+    --big-title-size: 28px;
+    overflow-x: hidden;
+    background-color: black;
+    scroll-behavior: auto;
+  }
+  .png {
+    display: block;
+  }
+  .jpg {
+    display: none;
+  }
+}

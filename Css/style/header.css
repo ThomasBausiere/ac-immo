@@ -1,0 +1,84 @@
+/* Config de bases du header */
+
+header {
+  position: fixed;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 20% 40% 10% 20% 10%;
+  width: 100%;
+  background-color: var(--primary-color);
+  text-align: center;
+  /* font-size: var(--title-size); */
+  font-size: 1.2rem;
+  /* font-family: var(--police-light); */
+  font-family: "Futura PT", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  z-index: 99;
+  border-bottom: 1px solid grey;
+  height: 10vh;
+}
+/* Mise en forme des liens */
+.home a,
+.projets a,
+.about a {
+  color: var(--font-color);
+  font-family: var(--police-light);
+  text-decoration: none;
+  grid-row: 2;
+  text-transform: capitalize;
+}
+
+.home a:hover,
+.projets a:hover,
+.about a:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+/* Classes principales du header */
+header > .logo {
+  grid-column: 1;
+  width: 100%;
+  overflow: hidden;
+  border-right: 1px solid grey;
+  position: relative;
+
+  z-index: 99;
+}
+.home {
+  text-decoration: none;
+  grid-column: 3;
+}
+
+.home,
+.projets,
+.about {
+  height: 100%;
+  border-left: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  max-width: 50%;
+  width: auto;
+  max-height: 90%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* NavBurger Hidden  for mobile*/
+
+span.nav-btn {
+  display: none;
+}
+#navbar {
+  display: none;
+}
+header > nav.navbar {
+  display: none;
+}

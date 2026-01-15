@@ -1,0 +1,114 @@
+@media screen and (max-width: 767px) {
+  .about2 {
+    height: 66vh;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 35vh 21vh 10vh;
+  }
+  .about2 > .photo {
+    background-color: black;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .about2 img {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    height: 90%;
+    width: auto;
+    margin: auto;
+    transform: scale(1);
+    margin-left: 0;
+  }
+  .txtarea {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    z-index: 1;
+    overflow-y: hidden;
+    height: 100%;
+    width: 120%;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
+    transform: translateX(-7.5%);
+  }
+  .txtarea .h1 {
+    display: none;
+  }
+  .txtarea > p {
+    font-size: 14px;
+  }
+  .about2 > .h1 {
+    margin: auto;
+    height: 90%;
+    display: block;
+    transform: rotate(0deg);
+    color: white;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about2 > .h1 > h1 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 18px;
+    font-family: var(--police-bold);
+    letter-spacing: 0.2rem;
+  }
+  .about2 > .h1 > .hr1 {
+    width: 1px;
+    height: 40%;
+    background-color: var(--primary-color);
+    margin: auto;
+    margin-top: 0;
+  }
+
+  /* Colones */
+  .col1 {
+    grid-row: 1 / span 3;
+    grid-column: 2;
+  }
+  .col2 {
+    grid-row: 1 / span3;
+    grid-column: 4;
+  }
+  .col3 {
+    display: none;
+  }
+  .btnarea {
+    display: flex;
+    grid-row: 3;
+    grid-column: 2 / span 2;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnarea > .btndesc,
+  .btnarea > .btn2desc {
+    display: block;
+    width: 30%;
+    height: 25%;
+    margin: auto;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .btnarea > .btn2desc {
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    .new-about2-style {
+      height: 110vh;
+      grid-template-columns: 20% 30% 30% 20%;
+      grid-template-rows: 35vh 65vh 10vh;
+    }
+
+    .new-body-style {
+      grid-template-rows: 10vh 30vh 110vh 40vh 70vh;
+    }
+  }
+}

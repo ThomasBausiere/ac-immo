@@ -1,0 +1,63 @@
+{
+  "Projet1": {
+    "Titre": "Entre Lumière et Modernité",
+    "image": [
+      "./Image/Projet1/image_01.jpg",
+      "./Image/Projet1/image_02.jpg",
+      "./Image/Projet1/image_03.jpg",
+      "./Image/Projet1/image_04.jpg",
+      "./Image/Projet1/image_05.jpg",
+      "./Image/Projet1/image_06.jpg",
+      "./Image/Projet1/image_07.jpg",
+      "./Image/Projet1/image_08.jpg",
+      "./Image/Projet1/image_09.jpg",
+      "./Image/Projet1/image_10.jpg",
+      "./Image/Projet1/image_11.jpg",
+      "./Image/Projet1/image_12.jpg",
+      "./Image/Projet1/image_13.jpg"
+    ],
+    "Sous-titre": "Duplex Transformé, Invitation à une Vie Renouvelée",
+    "Texte": {
+      "Paragraphe1": "Appartement en duplex rénové dans le cadre d’une vente à des primo accédants. Remise en état de l’existant : ravalement de façade, réparation de toiture.",
+      "Paragraphe2": "Modernisation de l’espace intérieur et technologie récente : encastrement d’enceintes au faux-plafond et connectivité sans fil avec téléviseur 65 pouces.",
+      "Paragraphe3": "Décoration intérieure dans un esprit loft pour le salon, préservation de la luminosité de la cuisine et des chambres."
+    }
+  },
+  "Projet2": {
+    "Titre": "Pédalez vers le Confort",
+    "image": [
+      "./Image/Projet2/image_01.jpg",
+      "./Image/Projet2/image_02.jpg",
+      "./Image/Projet2/image_03.jpg",
+      "./Image/Projet2/image_04.jpg",
+      "./Image/Projet2/image_05.jpg",
+      "./Image/Projet2/image_06.jpg"
+    ],
+    "Sous-titre": "Rénovation d’un Appartement à Roubaix aux Couleurs de Paris-Roubaix",
+    "Texte": {
+      "Paragraphe1": "La rénovation d’un appartement à Roubaix pour des locations courtes a été réalisée en intégrant des références à la célèbre course cycliste Paris-Roubaix.",
+      "Paragraphe2": "Des éléments tels qu’une accroche murale de vélo, un tableau et un porte-manteau cycliste ont été ajoutés pour apporter une touche d’originalité.",
+      "Paragraphe3": "Le salon est habillé en bleu encre pour favoriser la détente, les toilettes sont dynamisées par un rose saumon, et la chambre invite au repos avec un gris taupe.",
+      "Paragraphe4": "Quatre revêtements de sol différents ont été choisis, dont un parquet élégant pour le salon, des dalles PVC à motif pour la cuisine, un jonc de mer pour la salle de bain afin de conserver une ambiance naturelle, et une moquette soyeuse pour la chambre. L’appartement conserve un style minimaliste en accord avec la vision de la décoration adoptée."
+    }
+  },
+  "Projet3": {
+    "Titre": "Au-delà des Murs",
+    "image": [
+      "./Image/Projet3/image_01.jpg",
+      "./Image/Projet3/image_02.jpg",
+      "./Image/Projet3/image_03.jpg",
+      "./Image/Projet3/image_04.jpg",
+      "./Image/Projet3/image_05.jpg",
+      "./Image/Projet3/image_06.jpg",
+      "./Image/Projet3/image_07.jpg",
+      "./Image/Projet3/image_08.jpg",
+      "./Image/Projet3/image_09.jpg"
+    ],
+    "Sous-titre": "Rénovation d’un Appartement à Roubaix aux Couleurs de Paris-Roubaix",
+    "Texte": {
+      "Paragraphe1": "Ces bureaux professionnels ont été transformés en habitation après un chantier d’une durée de 87 jours.",
+      "Paragraphe2": " Il a donc fallu mettre en place un réseau d’alimentation et d’évacuation en eau à partir de l’existant ainsi qu’un réaménagement important au niveau de l’électricité. Côté décoratif, il était important de mettre en avant les atouts de ce bien et notamment les volumes importants dûs à une hauteur sous plafond de 3 mètres 70. "
+    }
+  }
+}

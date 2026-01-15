@@ -1,0 +1,65 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: rgb(252, 252, 249);
+  --secondary-color: #000000;
+  --tertiary-color: #c4a600;
+  --font-size: 1em;
+  --font-size2: 1.5em;
+  --title-size: 1.2rem;
+  --medium-title-size: 2rem;
+  --big-title-size: 4rem;
+  --font-color: #000000;
+  --padding: 20px;
+  --police-light: "Futura PT";
+  --police-bold: "Anton-Regular";
+  font-family: var(--police-light);
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.png {
+  display: none;
+}
+.jpg {
+  display: block;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../../font/FuturaPTBook.otf");
+}
+@font-face {
+  font-family: "Anton-Regular";
+  src: url("../../font/Anton-Regular.ttf");
+}
+
+body {
+  display: grid;
+  grid-template-rows: 10vh 90vh 100vh 110vh 40vh;
+  height: 340vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+span.gras {
+  font-weight: bold;
+}
+
+span.ita {
+  font-style: italic;
+}
+
+.about2 > .h1 {
+  display: none;
+}
+.btnarea,
+.btn2area {
+  display: none;
+}

@@ -1,0 +1,14 @@
+@import url("./style/config_projects.css");
+@import url("./style/projets_header.css");
+@import url("./style/projets_mobile_header.css");
+@import url("./style/projets_footer.css");
+@import url("./style/projets_projects_tablette.css");
+@import url("./style/projets_projects_desktop.css");
+@import url("./style/mobile_footer.css");
+
+/* @import url("./style/config_projects.css");
+@import url("./style/_header.css");
+@import url("./style/mobile_header.css");
+@import url("./style/_footer.css");
+@import url("./style/_projects_tablette.css");
+@import url("./style/_projects_desktop.css"); */

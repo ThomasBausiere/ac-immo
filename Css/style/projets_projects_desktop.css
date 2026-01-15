@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1400px) {
+      body{
+  grid-template-rows: 10vh 32vh 58vh 40vh;
+  height:140vh;
+  }
+  .slidsp > img {
+    width: 30%;
+    padding-right: 73px;
+  }
+  .slidsp {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 1 / span 4;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .slidsp {
+    height: 100%;
+  }
+
+  .yellowbar {
+    width: 5%;
+  }
+  .titreprojet > h2 {
+    font-size: 50px;
+    letter-spacing: 0.1em;
+  }
+  .txtareap > .titrep > h3 {
+    font-size: 43px;
+  }
+  .txtareap > .p > p {
+    font-size: 24px;
+  }
+    footer {
+    grid-column: 1 / span 5;
+  }
+  .container1 {
+    flex-direction: row;
+  }
+  .infos {
+    border: 1px solid var(--primary-color);
+    border-bottom: none;
+    border-top: none;
+  }
+  .btnvoirplusp,
+  .btnvoirplusp {
+    display: none;
+  }
+}

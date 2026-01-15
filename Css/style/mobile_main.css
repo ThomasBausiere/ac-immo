@@ -1,0 +1,35 @@
+/* MAIN */
+@media screen and (max-width: 767px) {
+  #main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .accueil {
+    width: 80%;
+    height: 60%;
+    margin: none;
+  }
+  .accueil h3 {
+    font-size: 28px;
+    font-family: var(--police-light);
+  }
+  .accueil > p {
+    font-size: 14px;
+  }
+  .accueil > .btn > a {
+    width: 30%;
+    height: fit-content;
+    font-size: 14px;
+  }
+  .img {
+    display: none;
+  }
+  main > .overlay {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+  main > .appli {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+}

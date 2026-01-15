@@ -1,0 +1,84 @@
+/* Config de bases du header */
+
+header {
+  position: fixed;
+  height: 10vh;
+  grid-template-columns: 20% 40% 10% 20% 10%;
+  background-color: var(--primary-color);
+  grid-row: 1;
+  display: grid;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Futura PT", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  z-index: 99;
+  border-bottom: 1px solid grey;
+}
+.home{
+  grid-column: 3;
+}
+
+.projets{
+  grid-column: 4;
+}
+
+.about{
+  grid-column: 5;
+}
+
+.home a,
+.projets a,
+.about a {
+  color: var(--font-color);
+  font-family: var(--police-light);
+  text-decoration: none;
+  grid-row: 2;
+  text-transform: capitalize;
+}
+.home a:hover,
+.projets a:hover,
+.about a:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.home,
+.projets,
+.about {
+  height: 100%;
+  border-left: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > .logo {
+  grid-column: 1;
+  width: 100%;
+  overflow: hidden;
+  border-right: 1px solid grey;
+  position: relative;
+  z-index: 99;
+}
+.logo img {
+  max-width: 50%;
+  width: auto;
+  max-height: 90%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span.nav-btn {
+  display: none;
+}
+#navbar {
+  display: none;
+}
+header > nav.navbar {
+  display: none;
+}
+
+/* NavBurger Hidden  for mobile*/

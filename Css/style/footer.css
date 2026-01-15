@@ -1,0 +1,79 @@
+footer {
+  background-color: #171717;
+  height: 100%;
+  width: 100%;
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  scroll-snap-align: end;
+  /* font-family: var(--police-light); */
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  font-size: var(--font-size2);
+}
+.container1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logof {
+  justify-content: center;
+  height: 60%;
+  width: 33%;
+}
+.logof img {
+  width: 25%;
+  height: auto;
+}
+
+.infos,
+.logof,
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infos {
+  height: 60%;
+  width: 33%;
+  justify-content: space-around;
+}
+.contacts {
+  height: 60%;
+  width: 33%;
+  justify-content: space-around;
+}
+
+.infos > h1,
+.contacts > h1 {
+  font-size: var(--medium-title-size);
+  text-align: center;
+  font-family: var(--police-light);
+  letter-spacing: 0.1rem;
+}
+.infos ul li a,
+.socials > ul > li,
+.contacts ul li a {
+  font-size: 1rem;
+  font-family: var(--police-light);
+  width: fit-content;
+  color: var(--primary-color);
+}
+
+.infos {
+  border: 1px solid var(--primary-color);
+  border-top: none;
+  border-bottom: none;
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
+}

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 767px) {
+  /* CONFIGS */
+
+  :root {
+    --font-size: 18px;
+    --font-size2: 22px;
+    --title-size: 22px;
+    --medium-title-size: 2rem;
+    --big-title-size: 28px;
+    overflow-x: hidden;
+    background-color: black;
+    scroll-behavior: auto;
+  }
+  .png {
+    display: block;
+  }
+  .jpg {
+    display: none;
+  }
+
+  /* ABOUT */
+
+  /* SECTIONS */
+
+  /* FOOTER */
+}
